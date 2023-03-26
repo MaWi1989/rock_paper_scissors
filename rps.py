@@ -25,7 +25,7 @@ def rock_paper_scissors():
         computer = random.choice(options)
         first_q = input("\nWould you like to  play 'rock, paper, scissors? ['y'/'n']: ")
         if first_q.lower().strip() == "n":
-            print("Thank you for playing! ")  #---> added this line <---
+            print("Thank you for playing! ")  
             break
         player = input("\nPick rock['r'] paper['p'] scissors['s']: ")
         # if player == computer:
